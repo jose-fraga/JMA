@@ -1,25 +1,50 @@
-import React from "react";
+import React from 'react';
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
-export const Features = (props) => {
+const mapContainerStyle = {
+  width: '800px',
+  height: '600px',
+};
+
+const center = {
+  lat: 25.7617, // Centered around Miami
+  lng: -80.1918,
+};
+
+const locations = [
+  {
+    name: "Aries Supermarket",
+    position: { lat: 25.8576, lng: -80.2784 }
+  },
+  {
+    name: "Bravo Supermarket",
+    position: { lat: 25.6131, lng: -80.3677 }
+  },
+  {
+    name: "Bravo Supermarket #2",
+    position: { lat: 26.0032, lng: -80.2963 }
+  },
+  // Add all other locations in the same format
+];
+
+const Features = () => {
   return (
-    <div id="features" className="text-center">
-      <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Features</h2>
-        </div>
-        <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <h3>{d.title}</h3>
-                  <p>{d.text}</p>
-                </div>
-              ))
-            : "Loading..."}
-        </div>
-      </div>
-    </div>
+    <LoadScript googleMapsApiKey="YOUR_API_KEY_HERE">
+      <GoogleMap
+        mapContainerStyle={mapContainerStyle}
+        center={center}
+        zoom={10}
+      >
+        {locations.map((location, index) => (
+          <Marker
+            key={index}
+            position={location.position}
+            title={location.name}
+          />
+        ))}
+      </GoogleMap>
+    </LoadScript>
   );
 };
+
+export default Features;

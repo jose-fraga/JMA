@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Introducing Innovative Products, Tailored for You",
+    "paragraph": "JMa Import & Export LLC was founded by Marta Santana and Juan Ramos with focus on developing products in South Florida market. We have over 20 years of experience in the market of Fast Moving Consumer Goods. We offer products, especially customised for the South Florida market."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "We are a small company based in South Florida. Our mission is to bring products of high quality at affordable prices so consumers can enjoy quality products without hurting their pockets. We have been open since 2016 and could not be more thankful of the support of the community. We have been lucky enough to work with incredible partners that have made our journey more enjoyable.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -20,49 +20,39 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "VanPur Malt",
+      "largeImage": "img/portfolio/Vanpur Malt Coffee.png",
+      "smallImage": "img/portfolio/Vanpur Malt Coffee.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Guama Drink Mix",
+      "largeImage": "img/portfolio/Guama Guanabana.png",
+      "smallImage": "img/portfolio/Guama Guanabana.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Guama Oil",
+      "largeImage": "img/portfolio/Guama Oil.png",
+      "smallImage": "img/portfolio/Guama Oil.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Brok Beer",
+      "largeImage": "img/portfolio/Brok beer.png",
+      "smallImage": "img/portfolio/Brok beer.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Guama Sweetened Condensed Creamer",
+      "largeImage": "img/portfolio/Guama Consensed Creamer.png",
+      "smallImage": "img/portfolio/Guama Consensed Creamer.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Guama Evaporated Creamer",
+      "largeImage": "img/portfolio/Guama Evaporated Milk.png",
+      "smallImage": "img/portfolio/Guama Evaporated Milk.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Bucanero Malt",
+      "largeImage": "img/portfolio/Bucanero Malt.png",
+      "smallImage": "img/portfolio/Bucanero Malt.png"
     }
   ],
   "Services": [
